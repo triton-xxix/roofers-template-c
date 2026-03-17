@@ -113,7 +113,7 @@ export function Hero() {
       <div className="hero-bg absolute inset-0">
         <img
           src="/images/hero-roofer.jpg"
-          alt="Professional roofer repairing roof in Forest Hill London"
+          alt="Professional roofer repairing roof in PLACEHOLDER_AREA London"
           className="w-full h-full object-cover"
         />
         {/* Gradient Overlay */}
@@ -138,13 +138,13 @@ export function Hero() {
               {/* Headline */}
               <h1 className="hero-headline text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
                 Trusted Local Roofers in{' '}
-                <span className="text-amber-400">Forest Hill</span>
+                <span className="text-amber-400">PLACEHOLDER_AREA</span>
               </h1>
 
               {/* Subheadline */}
               <p className="hero-subheadline text-lg sm:text-xl text-white/80 max-w-xl">
-                Reliable repairs, new roofs, and flat roofing across Forest Hill
-                and South East London. Fully insured with free quotes.
+                Reliable repairs, new roofs, and flat roofing across PLACEHOLDER_AREA
+                and PLACEHOLDER_REGION. Fully insured with free quotes.
               </p>
 
               {/* Trust Row */}
@@ -167,7 +167,7 @@ export function Hero() {
               <div className="hero-buttons flex flex-wrap gap-4">
                 <a href="tel:02085488542" className="btn-primary">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 020 8548 8542
+                  Call PLACEHOLDER_PHONE
                 </a>
                 <button onClick={scrollToServices} className="btn-secondary">
                   View Services
@@ -182,7 +182,7 @@ export function Hero() {
               className="hidden lg:block bg-white/10 backdrop-blur-md rounded-3xl p-8 border border-white/20"
             >
               <h3 className="text-xl font-bold text-white mb-6">
-                Why Choose R&P Roofing?
+                Why Choose PLACEHOLDER_BUSINESS_NAME?
               </h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
@@ -237,11 +237,11 @@ export function Hero() {
                 className="flex items-center gap-2 text-white hover:text-amber-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span className="font-semibold">020 8548 8542</span>
+                <span className="font-semibold">PLACEHOLDER_PHONE</span>
               </a>
               <div className="hidden sm:flex items-center gap-2 text-white/70">
                 <MapPin className="w-5 h-5" />
-                <span>3 Tynemouth Rd, Forest Hill, London SE23 3QT</span>
+                <span>PLACEHOLDER_STREET_ADDRESS, PLACEHOLDER_AREA, London PLACEHOLDER_POSTCODE_AREA 3QT</span>
               </div>
             </div>
             <button

@@ -19,7 +19,7 @@ const services = [
 ];
 
 const areas = [
-  'Forest Hill',
+  'PLACEHOLDER_AREA',
   'Sydenham',
   'Dulwich',
   'Crystal Palace',
@@ -46,12 +46,12 @@ export function Footer() {
             <div className="lg:col-span-1">
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
-                  <span className="text-slate-900 font-bold text-lg">R&P</span>
+                  <span className="text-slate-900 font-bold text-lg">PLACEHOLDER_BUSINESS_SHORT_NAME</span>
                 </div>
                 <span className="font-bold text-xl">Roofing</span>
               </div>
               <p className="text-slate-400 mb-4">
-                Trusted local roofers based in Forest Hill, serving South East
+                Trusted local roofers based in PLACEHOLDER_AREA, serving South East
                 London with quality repairs, new roofs, and emergency services.
               </p>
               <div className="flex items-center gap-2 mb-4">
@@ -123,16 +123,16 @@ export function Footer() {
                     className="flex items-center gap-2 text-slate-400 hover:text-amber-400 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    020 8548 8542
+                    PLACEHOLDER_PHONE
                   </a>
                 </li>
                 <li className="flex items-start gap-2 text-slate-400">
                   <MapPin className="w-4 h-4 mt-0.5" />
-                  <span>3 Tynemouth Rd, Forest Hill, London SE23 3QT</span>
+                  <span>PLACEHOLDER_STREET_ADDRESS, PLACEHOLDER_AREA, London PLACEHOLDER_POSTCODE_AREA 3QT</span>
                 </li>
                 <li className="flex items-center gap-2 text-slate-400">
                   <Mail className="w-4 h-4" />
-                  <span>info@rproofing.co.uk</span>
+                  <span>info@PLACEHOLDER_WEBSITE_URL</span>
                 </li>
               </ul>
 
@@ -157,13 +157,13 @@ export function Footer() {
         <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 py-6">
           <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-slate-500 text-sm text-center sm:text-left">
-              © {new Date().getFullYear()} R&P Roofing. All rights reserved.
+              © {new Date().getFullYear()} PLACEHOLDER_BUSINESS_NAME. All rights reserved.
               Fully insured roofing services.
             </p>
             <div className="flex items-center gap-4 text-sm text-slate-500">
-              <span>Forest Hill</span>
+              <span>PLACEHOLDER_AREA</span>
               <span>•</span>
-              <span>SE23</span>
+              <span>PLACEHOLDER_POSTCODE_AREA</span>
               <span>•</span>
               <span>SE London</span>
             </div>

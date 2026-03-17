@@ -159,7 +159,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-white/70 text-sm">Call us</p>
-                  <p className="text-white font-bold">020 8548 8542</p>
+                  <p className="text-white font-bold">PLACEHOLDER_PHONE</p>
                 </div>
               </a>
               <div className="flex items-center gap-3 bg-white/10 rounded-xl p-4">
@@ -169,7 +169,7 @@ export function Contact() {
                 <div>
                   <p className="text-white/70 text-sm">Visit us</p>
                   <p className="text-white font-bold text-sm">
-                    3 Tynemouth Rd, Forest Hill
+                    PLACEHOLDER_STREET_ADDRESS, PLACEHOLDER_AREA
                   </p>
                 </div>
               </div>
@@ -245,7 +245,7 @@ export function Contact() {
                       value={formData.postcode}
                       onChange={handleChange}
                       className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-amber-400 transition-colors"
-                      placeholder="e.g., SE23 3QT"
+                      placeholder="e.g., PLACEHOLDER_POSTCODE_AREA 3QT"
                     />
                   </div>
                 </div>
@@ -312,7 +312,7 @@ export function Contact() {
         >
           <img
             src="/images/hero-roofer.jpg"
-            alt="R&P Roofing contact"
+            alt="PLACEHOLDER_BUSINESS_NAME contact"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-800/50 to-transparent lg:bg-gradient-to-l" />

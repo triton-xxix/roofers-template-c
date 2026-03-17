@@ -29,7 +29,7 @@ const faqs = [
   {
     question: 'Which areas do you cover?',
     answer:
-      "We're based in Forest Hill (SE23) and serve homeowners across South East London, including Sydenham, Dulwich, Crystal Palace, Penge, and surrounding areas.",
+      "We're based in PLACEHOLDER_AREA (PLACEHOLDER_POSTCODE_AREA) and serve homeowners across PLACEHOLDER_REGION, including Sydenham, Dulwich, Crystal Palace, Penge, and surrounding areas.",
   },
 ];
 
@@ -158,7 +158,7 @@ export function FAQ() {
             href="tel:02085488542"
             className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:text-amber-500 transition-colors"
           >
-            Call us on 020 8548 8542
+            Call us on PLACEHOLDER_PHONE
           </a>
         </div>
       </div>

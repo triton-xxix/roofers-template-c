@@ -120,7 +120,7 @@ export function Process() {
         >
           <img
             src="/images/roof-repair.jpg"
-            alt="Roofer working on roof in Forest Hill"
+            alt="Roofer working on roof in PLACEHOLDER_AREA"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-l from-blue-800/50 to-transparent lg:bg-gradient-to-r" />

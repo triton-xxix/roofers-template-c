@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const projects = [
   {
     title: 'Pitched Roof Replacement',
-    location: 'Forest Hill',
+    location: 'PLACEHOLDER_AREA',
     image: '/images/new-roof.jpg',
     description: 'Complete roof replacement with premium tiles',
   },
@@ -99,7 +99,7 @@ export function Projects() {
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Quality workmanship you can see. Browse our recent roofing projects
-            across South East London.
+            across PLACEHOLDER_REGION.
           </p>
         </div>
 

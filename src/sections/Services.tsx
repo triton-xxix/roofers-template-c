@@ -114,7 +114,7 @@ export function Services() {
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
             Roofing Services in{' '}
-            <span className="text-blue-700">Forest Hill & SE London</span>
+            <span className="text-blue-700">PLACEHOLDER_AREA & SE London</span>
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             From minor repairs to complete roof replacements, we deliver quality
@@ -136,7 +136,7 @@ export function Services() {
               <div className="relative h-48 overflow-hidden">
                 <img
                   src={service.image}
-                  alt={`${service.title} in Forest Hill London`}
+                  alt={`${service.title} in PLACEHOLDER_AREA London`}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />

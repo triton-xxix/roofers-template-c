@@ -6,7 +6,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const areas = [
-  'Forest Hill',
+  'PLACEHOLDER_AREA',
   'Sydenham',
   'Dulwich',
   'Crystal Palace',
@@ -108,10 +108,10 @@ export function Coverage() {
             </span>
             <h2 className="animate-item text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               We Cover{' '}
-              <span className="text-amber-400">South East London</span>
+              <span className="text-amber-400">PLACEHOLDER_REGION</span>
             </h2>
             <p className="animate-item text-lg text-white/80 mb-8">
-              Based in Forest Hill (SE23), we're never far away. We travel
+              Based in PLACEHOLDER_AREA (PLACEHOLDER_POSTCODE_AREA), we're never far away. We travel
               across SE London to keep homes dry and secure. Not sure if we
               cover your area? Give us a call!
             </p>
@@ -139,7 +139,7 @@ export function Coverage() {
                 href="tel:02085488542"
                 className="btn-secondary"
               >
-                Call 020 8548 8542
+                Call PLACEHOLDER_PHONE
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
             </div>
@@ -153,7 +153,7 @@ export function Coverage() {
         >
           <img
             src="/images/hero-roofer.jpg"
-            alt="R&P Roofing coverage area South East London"
+            alt="PLACEHOLDER_BUSINESS_NAME coverage area PLACEHOLDER_REGION"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-800/50 to-transparent lg:bg-gradient-to-l" />
@@ -167,10 +167,10 @@ export function Coverage() {
                 </div>
                 <div>
                   <p className="text-white font-bold text-lg">
-                    Based in Forest Hill
+                    Based in PLACEHOLDER_AREA
                   </p>
                   <p className="text-white/70">
-                    Serving all of South East London
+                    Serving all of PLACEHOLDER_REGION
                   </p>
                 </div>
               </div>

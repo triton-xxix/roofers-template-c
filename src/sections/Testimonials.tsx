@@ -7,9 +7,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const testimonials = [
   {
-    text: "Had a leak during heavy rain—R&P Roofing came quickly and fixed it properly. Great communication and fair price. Would definitely recommend!",
+    text: "Had a leak during heavy rain—PLACEHOLDER_BUSINESS_NAME came quickly and fixed it properly. Great communication and fair price. Would definitely recommend!",
     name: 'James',
-    location: 'Forest Hill',
+    location: 'PLACEHOLDER_AREA',
     rating: 5,
   },
   {
@@ -177,7 +177,7 @@ export function Testimonials() {
           </div>
           <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
             <span className="text-sm font-medium text-slate-700">
-              Local SE23 Business
+              Local PLACEHOLDER_POSTCODE_AREA Business
             </span>
           </div>
         </div>

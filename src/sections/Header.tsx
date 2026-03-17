@@ -44,7 +44,7 @@ export function Header({ isScrolled }: HeaderProps) {
               className="flex items-center gap-2"
             >
               <div className="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
-                <span className="text-blue-900 font-bold text-lg">R&P</span>
+                <span className="text-blue-900 font-bold text-lg">PLACEHOLDER_BUSINESS_SHORT_NAME</span>
               </div>
               <span className="text-white font-bold text-xl hidden sm:block">
                 Roofing
@@ -71,7 +71,7 @@ export function Header({ isScrolled }: HeaderProps) {
                 className="flex items-center gap-2 text-white font-semibold hover:text-amber-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>020 8548 8542</span>
+                <span>PLACEHOLDER_PHONE</span>
               </a>
               <button
                 onClick={() => scrollToSection('contact')}
@@ -115,7 +115,7 @@ export function Header({ isScrolled }: HeaderProps) {
               className="flex items-center gap-3 text-amber-400 text-xl font-bold mt-4"
             >
               <Phone className="w-6 h-6" />
-              <span>020 8548 8542</span>
+              <span>PLACEHOLDER_PHONE</span>
             </a>
             <button
               onClick={() => scrollToSection('contact')}

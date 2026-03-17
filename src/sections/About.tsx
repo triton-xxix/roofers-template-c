@@ -116,11 +116,11 @@ export function About() {
             </span>
             <h2 className="animate-item text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
               Why Homeowners Choose{' '}
-              <span className="text-amber-400">R&P Roofing</span>
+              <span className="text-amber-400">PLACEHOLDER_BUSINESS_NAME</span>
             </h2>
             <p className="animate-item text-lg text-white/80 mb-8">
-              We're based in Forest Hill (SE23) and serve homeowners across
-              South East London. Our work is tidy, on time, and backed by clear
+              We're based in PLACEHOLDER_AREA (PLACEHOLDER_POSTCODE_AREA) and serve homeowners across
+              PLACEHOLDER_REGION. Our work is tidy, on time, and backed by clear
               communication. With years of experience and a commitment to
               quality, we've built a reputation as the trusted local roofers.
             </p>
@@ -157,7 +157,7 @@ export function About() {
                 className="inline-flex items-center text-slate-900 font-bold text-lg hover:text-slate-800 transition-colors"
               >
                 <Phone className="w-5 h-5 mr-2" />
-                Call 020 8548 8542
+                Call PLACEHOLDER_PHONE
               </a>
             </div>
           </div>
@@ -170,7 +170,7 @@ export function About() {
         >
           <img
             src="/images/hero-roofer.jpg"
-            alt="R&P Roofing team at work in Forest Hill"
+            alt="PLACEHOLDER_BUSINESS_NAME team at work in PLACEHOLDER_AREA"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-blue-800/50 to-transparent lg:bg-gradient-to-l" />
@@ -196,7 +196,7 @@ export function About() {
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 text-center">
                 <div className="text-2xl lg:text-3xl font-bold text-amber-400">
-                  SE23
+                  PLACEHOLDER_POSTCODE_AREA
                 </div>
                 <div className="text-white/80 text-xs lg:text-sm">
                   Based Here

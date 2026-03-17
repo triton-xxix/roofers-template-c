@@ -5,17 +5,17 @@ export function SchemaMarkup() {
     const schema = {
       '@context': 'https://schema.org',
       '@type': 'LocalBusiness',
-      name: 'R&P Roofing',
+      name: 'PLACEHOLDER_BUSINESS_NAME',
       image: '/images/hero-roofer.jpg',
-      '@id': 'https://rproofing.co.uk',
-      url: 'https://rproofing.co.uk',
+      '@id': 'https://PLACEHOLDER_WEBSITE_URL',
+      url: 'https://PLACEHOLDER_WEBSITE_URL',
       telephone: '+442085488542',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '3 Tynemouth Rd',
-        addressLocality: 'Forest Hill',
+        streetAddress: 'PLACEHOLDER_STREET_ADDRESS',
+        addressLocality: 'PLACEHOLDER_AREA',
         addressRegion: 'London',
-        postalCode: 'SE23 3QT',
+        postalCode: 'PLACEHOLDER_POSTCODE_AREA 3QT',
         addressCountry: 'GB',
       },
       geo: {
@@ -74,7 +74,7 @@ export function SchemaMarkup() {
             ratingValue: '5',
           },
           reviewBody:
-            'Had a leak during heavy rain—R&P Roofing came quickly and fixed it properly. Great communication and fair price.',
+            'Had a leak during heavy rain—PLACEHOLDER_BUSINESS_NAME came quickly and fixed it properly. Great communication and fair price.',
           datePublished: '2024-01-15',
         },
         {
