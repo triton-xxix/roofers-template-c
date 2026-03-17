@@ -241,7 +241,7 @@ export function Hero() {
               </a>
               <div className="hidden sm:flex items-center gap-2 text-white/70">
                 <MapPin className="w-5 h-5" />
-                <span>PLACEHOLDER_STREET_ADDRESS, PLACEHOLDER_AREA, London PLACEHOLDER_POSTCODE_AREA 3QT</span>
+                <span>PLACEHOLDER_STREET_ADDRESS, PLACEHOLDER_AREA, PLACEHOLDER_CITY PLACEHOLDER_POSTCODE</span>
               </div>
             </div>
             <button

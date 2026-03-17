@@ -51,8 +51,8 @@ export function Footer() {
                 <span className="font-bold text-xl">Roofing</span>
               </div>
               <p className="text-slate-400 mb-4">
-                Trusted local roofers based in PLACEHOLDER_AREA, serving South East
-                London with quality repairs, new roofs, and emergency services.
+                Trusted local roofers based in PLACEHOLDER_AREA, serving PLACEHOLDER_REGION
+                with quality repairs, new roofs, and emergency services.
               </p>
               <div className="flex items-center gap-2 mb-4">
                 <div className="flex">
@@ -128,7 +128,7 @@ export function Footer() {
                 </li>
                 <li className="flex items-start gap-2 text-slate-400">
                   <MapPin className="w-4 h-4 mt-0.5" />
-                  <span>PLACEHOLDER_STREET_ADDRESS, PLACEHOLDER_AREA, London PLACEHOLDER_POSTCODE_AREA 3QT</span>
+                  <span>PLACEHOLDER_STREET_ADDRESS, PLACEHOLDER_AREA, PLACEHOLDER_CITY PLACEHOLDER_POSTCODE</span>
                 </li>
                 <li className="flex items-center gap-2 text-slate-400">
                   <Mail className="w-4 h-4" />
@@ -165,7 +165,7 @@ export function Footer() {
               <span>•</span>
               <span>PLACEHOLDER_POSTCODE_AREA</span>
               <span>•</span>
-              <span>SE London</span>
+              <span>PLACEHOLDER_REGION</span>
             </div>
           </div>
         </div>

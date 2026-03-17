@@ -112,7 +112,7 @@ export function Coverage() {
             </h2>
             <p className="animate-item text-lg text-white/80 mb-8">
               Based in PLACEHOLDER_AREA (PLACEHOLDER_POSTCODE_AREA), we're never far away. We travel
-              across SE London to keep homes dry and secure. Not sure if we
+              across PLACEHOLDER_REGION to keep homes dry and secure. Not sure if we
               cover your area? Give us a call!
             </p>
 

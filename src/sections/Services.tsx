@@ -114,7 +114,7 @@ export function Services() {
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-4">
             Roofing Services in{' '}
-            <span className="text-blue-700">PLACEHOLDER_AREA & SE London</span>
+            <span className="text-blue-700">PLACEHOLDER_AREA & PLACEHOLDER_REGION</span>
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             From minor repairs to complete roof replacements, we deliver quality

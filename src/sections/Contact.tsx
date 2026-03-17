@@ -245,7 +245,7 @@ export function Contact() {
                       value={formData.postcode}
                       onChange={handleChange}
                       className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:border-amber-400 transition-colors"
-                      placeholder="e.g., PLACEHOLDER_POSTCODE_AREA 3QT"
+                      placeholder="e.g., PLACEHOLDER_POSTCODE"
                     />
                   </div>
                 </div>
