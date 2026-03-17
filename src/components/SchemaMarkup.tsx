@@ -21,12 +21,12 @@ export function SchemaMarkup() {
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: PLACEHOLDER_GEO_LAT,
-        longitude: PLACEHOLDER_GEO_LNG,
+        latitude: 'PLACEHOLDER_GEO_LAT',
+        longitude: 'PLACEHOLDER_GEO_LNG',
       },
-      openingHoursSpecification: PLACEHOLDER_OPENING_HOURS,
+      openingHoursSpecification: 'PLACEHOLDER_OPENING_HOURS',
       priceRange: 'PLACEHOLDER_PRICE_RANGE',
-      areaServed: PLACEHOLDER_AREAS_SERVED,
+      areaServed: 'PLACEHOLDER_AREAS_SERVED',
       serviceType: [
         'Roof Repairs',
         'New Roof Installation',
